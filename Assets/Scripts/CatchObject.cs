@@ -25,7 +25,7 @@ public class CatchObject : MonoBehaviour
                 ball.transform.SetParent(hand.transform);
                 ball.transform.localPosition = hand.transform.localPosition;
                 catched = true;
-                ball.GetComponent<Renderer>().material.color = Color.yellow;
+                ball.GetComponent<Renderer>().material.color = Color.blue;
             } else
             {
                 ball.transform.SetParent(null);
